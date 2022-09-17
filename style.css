@@ -1,0 +1,346 @@
+body{
+    background-image: linear-gradient(0.25turn, #536ba8da, rgba(89, 168, 164, 0.507), #3549f867);
+}
+.headerC{
+    padding: 15px;
+    align-items: center;
+}
+
+#txt-buscar{
+    width: 30vw;
+    padding: 9px;
+    border-radius: 5px;
+   background-color: #EFEFEF;
+    outline: 0;
+    border: none;
+    height: 50px;
+    margin-left: 20px;
+  }
+  #buscar{
+    padding: 2px;
+    position: relative;
+    right: 55px;
+    border: none;
+    
+  }
+  
+  #buscar-img{
+  width: 25px;
+  cursor: pointer;
+  margin-left: 4px
+  }
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.conteudo_pokemon{
+   word-wrap: wrap;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;    
+    align-items: center;
+    margin: 8px;    
+    border: 1px solid black;
+    width: 200px;
+    max-width: 200px;
+    height: 200px;
+    min-height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px rgb(100, 100, 100);
+    border: none;
+    line-height: 25px;
+    transition: 0.3s;
+    
+    
+}
+
+.conteudo_pokemon:hover{
+    transform:scale(1.05);
+}
+
+
+.fire, .water, .normal, .electric, .ground, .poison, .bug, .grass, .flying, .fairy, .psychic, .ice, .rock, .fighting, .steel, .ghost, .dark, .dragon{
+    text-shadow: 1px 1px 1px black;
+    font-size: 18px;
+    margin: 2px;
+    text-align: center;
+    vertical-align: center;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px; 
+}
+
+.nome{
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+.fire{
+    background-color: #F08030 !important;
+      
+}
+.water{
+    background-color: #6890F0 !important;
+      
+}
+.normal{
+    background-color: #dddddd !important;
+      
+}
+.electric{
+    
+    background-color: #F8D030 !important;
+      
+}
+.ground{
+    background-color: #E0C068 !important;
+      
+}
+.poison{
+    background-color: #A040A0 !important;
+      
+}
+.bug{
+    background-color: #95a316 !important;
+      
+}
+.grass{
+    background-color: #20552b !important;
+      
+}
+.flying{
+    background-color: #A890F0 !important;
+      
+}
+.fairy{
+    background-color: #EE99AC !important;
+      
+}
+.psychic{
+    background-color: #F85888 !important;
+      
+}
+.ice{
+    background-color: #6dbbbb !important;
+      
+}
+.rock{
+    background-color: #B8A038 !important;
+      
+}
+.fighting{
+    background-color: #B8A038 !important;
+      
+}
+
+.ghost{
+    background-color: #705898 !important;
+      
+}
+.steel{
+    background-color: #a7a7bd !important;
+      
+}
+.dragon{
+    background-color: #7038F8 !important;
+      
+}
+.dark{
+    background-color: #705898 ;
+      
+}
+
+.fire1{
+    background-color: #f0803094;
+    border: 3px solid #f08030;
+      
+}
+.water1{
+    background-color: #a7bdf1;
+    border: 3px solid #628df0;
+}
+.normal1{
+    background-color: #ffffff;
+    border: 3px solid #bdbdbd;
+}
+.electric1{    
+    background-color: #f7e7a9b6;
+    border: 3px solid #f7e7a9;
+}
+.ground1{
+    background-color: #e4c5709a;
+    border: 3px solid #e4c570;
+}
+.poison1{
+    background-color: #a040a098;
+    border: 3px solid #a040a0;
+}
+.bug1{
+    background-color: #a9b82085;
+    border: 3px solid #95a508;
+}
+.grass1{
+    background-color: #5c92679a;
+    border: 3px solid #5c9267;
+}
+.flying1{
+    background-color: #a890f08e;
+    border: 3px solid #a890f0;
+}
+.fairy1{
+    background-color: #ee99ab9a;
+    border: 3px solid #ee99ab;
+}
+.psychic1{
+    background-color: #f8588888;
+    border: 3px solid #f85888;
+}
+.ice1{
+    background-color: #98d8d88f;
+    border: 3px solid #98d8d8;
+}
+.rock1{
+    background-color: #b8a13881;
+    border: 3px solid #b8a138; 
+}
+.fighting1{
+    background-color: #b8a13881;
+    border: 3px solid #b8a138;
+}
+
+.ghost1{
+    background-color: #71589883;
+    border: 3px solid #715898;
+}
+.steel1{
+    background-color: #b8b8d085;
+    border: 3px solid #8f8fa1;
+}
+.dragon1{
+    background-color: #7238f880;
+    border: 3px solid #7238f8;
+}
+.dark1{
+    background-color: #7158987e;
+    border: 3px solid #715898;
+}
+
+.carregando{
+    margin: auto;
+    position: relative;
+    top: 300px;
+    background-color:#ffffff;
+    
+    border: 8px solid rgba(0, 0, 0, 0.180);
+    border-left-color: rgb(2, 2, 2);
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin{
+    to {transform: rotate(360deg)}
+  }
+
+
+
+/*-------------------------------------------------- parteModal ------------------------------------------- */
+
+.modal-content{
+    border:10px solid #201d0d !important;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px black;
+    color: black;
+   
+    background-color: blue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 5;
+   
+    color: #000;
+   
+    
+
+}
+
+.div-imgA{
+    position: absolute;
+    background-image: url(./assets/backgroundCard.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;    
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+}
+
+
+.modal-title{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(10, 7, 4);
+}
+#hp{
+    text-shadow:none;
+}
+.card{
+    margin: auto;
+    width: 100%;
+    align-items: center; 
+    border: 0px solid rgb(0, 0, 0) !important;
+    border-radius:0px !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.card-body-content{
+    margin-bottom: 10px;
+}
+
+#card-img{
+    width:150px ;
+    height:150px;
+}
+
+.card-body{
+    display:block;
+    text-align:center;
+}
+#habilidades, #stats{
+    font-style: italic;
+    color: black;
+    text-shadow: none;
+    font-weight: 500;
+}
+#habilidades{
+    font-weight: bold;
+}
+
+.card-title{
+    margin-bottom: 0.2rem !important;
+    color: rgb(255, 0, 0);
+    font-size: 20px !important;
+}
+
+.modal-header{
+    border-bottom:none !important;
+} 
+
+#stats{
+    text-shadow: none;
+    color: black;
+}
+
+.hp-txt{
+    color: red;
+    text-shadow: 1px 0px 0px black;
+}
+
+
